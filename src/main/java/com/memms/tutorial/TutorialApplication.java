@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 
 @SpringBootApplication
 @Log
-public class TutorialApplication implements CommandLineRunner {
+public class TutorialApplication {
 
 
 //	public TutorialApplication(DataSource dataSource) {
@@ -21,10 +21,10 @@ public class TutorialApplication implements CommandLineRunner {
 		SpringApplication.run(TutorialApplication.class, args);
 	}
 
-	@Override
-	public void run(String... args) throws Exception {
-//		log.info("DATASOURCE = " + dataSource);
-//		final JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
-//		jdbcTemplate.execute("select 1");
-	}
+//	@Override
+//	public void run(String... args) throws Exception {
+////		log.info("DATASOURCE = " + dataSource);
+////		final JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
+////		jdbcTemplate.execute("select 1");
+//	}
 }

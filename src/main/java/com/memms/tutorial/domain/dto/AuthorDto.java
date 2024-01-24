@@ -1,4 +1,4 @@
-package com.memms.tutorial.domain;
+package com.memms.tutorial.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,14 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Book {
+public class AuthorDto {
 
-    private String isbn;
-    private String title;
-    private Long authorId;
+    private Long id;
+
+
+    private String name;
+
+
+    private Integer age;
+
 }
